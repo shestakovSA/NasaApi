@@ -3,19 +3,42 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		928038AB4B08F19CE0311F23 /* Pods_NasaApiCS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A2731D56819BD4AF0F2E71C /* Pods_NasaApiCS.framework */; };
+		9C35F8E224FD799800CE75ED /* APODInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35F8E124FD799800CE75ED /* APODInteractor.swift */; };
+		9C35F8E424FD79DA00CE75ED /* APODViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35F8E324FD79DA00CE75ED /* APODViewController.swift */; };
+		9C35F8E624FD7BCA00CE75ED /* APODViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C35F8E524FD7BCA00CE75ED /* APODViewController.storyboard */; };
 		9C4F1AD224FCA33D003EA0A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4F1AD124FCA33D003EA0A2 /* AppDelegate.swift */; };
 		9C4F1AD424FCA33D003EA0A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4F1AD324FCA33D003EA0A2 /* SceneDelegate.swift */; };
 		9C4F1AD624FCA33D003EA0A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4F1AD524FCA33D003EA0A2 /* ViewController.swift */; };
 		9C4F1AD924FCA33D003EA0A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4F1AD724FCA33D003EA0A2 /* Main.storyboard */; };
 		9C4F1ADB24FCA343003EA0A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C4F1ADA24FCA343003EA0A2 /* Assets.xcassets */; };
 		9C4F1ADE24FCA343003EA0A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4F1ADC24FCA343003EA0A2 /* LaunchScreen.storyboard */; };
+		9C4F1AEC24FCA5E6003EA0A2 /* APODPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4F1AEB24FCA5E6003EA0A2 /* APODPresenter.swift */; };
+		9C4F1AF124FCB6C2003EA0A2 /* AsteroidsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4F1AF024FCB6C2003EA0A2 /* AsteroidsViewController.swift */; };
+		9C4F1AF324FCB6DB003EA0A2 /* AsteroidsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4F1AF224FCB6DB003EA0A2 /* AsteroidsViewController.storyboard */; };
+		9C4F1AF524FCB738003EA0A2 /* AsteroidsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4F1AF424FCB738003EA0A2 /* AsteroidsPresenter.swift */; };
+		9C4F1AF724FCB753003EA0A2 /* AsteroidsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4F1AF624FCB753003EA0A2 /* AsteroidsInteractor.swift */; };
+		9C4F1AFE24FCBBFA003EA0A2 /* AsteroidsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4F1AFC24FCBBFA003EA0A2 /* AsteroidsCell.swift */; };
+		9C4F1AFF24FCBBFA003EA0A2 /* AsteroidsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C4F1AFD24FCBBFA003EA0A2 /* AsteroidsCell.xib */; };
+		9C4F1B0224FCD696003EA0A2 /* AsteroidModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4F1B0124FCD696003EA0A2 /* AsteroidModel.swift */; };
+		9C4F1B0524FCDD09003EA0A2 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4F1B0424FCDD09003EA0A2 /* Network.swift */; };
+		9C4F1B0724FCDDB1003EA0A2 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4F1B0624FCDDB1003EA0A2 /* Time.swift */; };
+		9C4F1B0A24FCDE7A003EA0A2 /* APODModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4F1B0924FCDE7A003EA0A2 /* APODModel.swift */; };
+		9C4F1B0E24FCE465003EA0A2 /* AsteroidCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4F1B0D24FCE465003EA0A2 /* AsteroidCellModel.swift */; };
+		9CEA034224FDFDFC00F7E156 /* ApodVCInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEA034124FDFDFC00F7E156 /* ApodVCInfoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		182042C597339877788A8EAA /* Pods-NasaApiCS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NasaApiCS.debug.xcconfig"; path = "Target Support Files/Pods-NasaApiCS/Pods-NasaApiCS.debug.xcconfig"; sourceTree = "<group>"; };
+		1A2731D56819BD4AF0F2E71C /* Pods_NasaApiCS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NasaApiCS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E820F5B2D52AF3C96E9C619 /* Pods-NasaApiCS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NasaApiCS.release.xcconfig"; path = "Target Support Files/Pods-NasaApiCS/Pods-NasaApiCS.release.xcconfig"; sourceTree = "<group>"; };
+		9C35F8E124FD799800CE75ED /* APODInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APODInteractor.swift; sourceTree = "<group>"; };
+		9C35F8E324FD79DA00CE75ED /* APODViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODViewController.swift; sourceTree = "<group>"; };
+		9C35F8E524FD7BCA00CE75ED /* APODViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = APODViewController.storyboard; sourceTree = "<group>"; };
 		9C4F1ACE24FCA33D003EA0A2 /* NasaApiCS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NasaApiCS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C4F1AD124FCA33D003EA0A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C4F1AD324FCA33D003EA0A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +47,19 @@
 		9C4F1ADA24FCA343003EA0A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C4F1ADD24FCA343003EA0A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C4F1ADF24FCA343003EA0A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C4F1AEB24FCA5E6003EA0A2 /* APODPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODPresenter.swift; sourceTree = "<group>"; };
+		9C4F1AF024FCB6C2003EA0A2 /* AsteroidsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsteroidsViewController.swift; sourceTree = "<group>"; };
+		9C4F1AF224FCB6DB003EA0A2 /* AsteroidsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AsteroidsViewController.storyboard; sourceTree = "<group>"; };
+		9C4F1AF424FCB738003EA0A2 /* AsteroidsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsteroidsPresenter.swift; sourceTree = "<group>"; };
+		9C4F1AF624FCB753003EA0A2 /* AsteroidsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsteroidsInteractor.swift; sourceTree = "<group>"; };
+		9C4F1AFC24FCBBFA003EA0A2 /* AsteroidsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsteroidsCell.swift; sourceTree = "<group>"; };
+		9C4F1AFD24FCBBFA003EA0A2 /* AsteroidsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AsteroidsCell.xib; sourceTree = "<group>"; };
+		9C4F1B0124FCD696003EA0A2 /* AsteroidModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsteroidModel.swift; sourceTree = "<group>"; };
+		9C4F1B0424FCDD09003EA0A2 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		9C4F1B0624FCDDB1003EA0A2 /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		9C4F1B0924FCDE7A003EA0A2 /* APODModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODModel.swift; sourceTree = "<group>"; };
+		9C4F1B0D24FCE465003EA0A2 /* AsteroidCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsteroidCellModel.swift; sourceTree = "<group>"; };
+		9CEA034124FDFDFC00F7E156 /* ApodVCInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodVCInfoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +67,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				928038AB4B08F19CE0311F23 /* Pods_NasaApiCS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		373C1751328AE4F5598B1928 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				182042C597339877788A8EAA /* Pods-NasaApiCS.debug.xcconfig */,
+				4E820F5B2D52AF3C96E9C619 /* Pods-NasaApiCS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9C4F1AC524FCA33D003EA0A2 = {
 			isa = PBXGroup;
 			children = (
 				9C4F1AD024FCA33D003EA0A2 /* NasaApiCS */,
 				9C4F1ACF24FCA33D003EA0A2 /* Products */,
+				373C1751328AE4F5598B1928 /* Pods */,
+				EA0DACF753813A268BF31D46 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +104,7 @@
 		9C4F1AD024FCA33D003EA0A2 /* NasaApiCS */ = {
 			isa = PBXGroup;
 			children = (
+				9C4F1AE524FCA3EF003EA0A2 /* Screens */,
 				9C4F1AD124FCA33D003EA0A2 /* AppDelegate.swift */,
 				9C4F1AD324FCA33D003EA0A2 /* SceneDelegate.swift */,
 				9C4F1AD524FCA33D003EA0A2 /* ViewController.swift */,
@@ -67,6 +116,93 @@
 			path = NasaApiCS;
 			sourceTree = "<group>";
 		};
+		9C4F1AE524FCA3EF003EA0A2 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				9C4F1B0324FCDCF2003EA0A2 /* Workers */,
+				9C4F1AEF24FCB6A0003EA0A2 /* Asteroids */,
+				9C4F1AE624FCA402003EA0A2 /* APOD */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		9C4F1AE624FCA402003EA0A2 /* APOD */ = {
+			isa = PBXGroup;
+			children = (
+				9C4F1B0824FCDE62003EA0A2 /* Models */,
+				9C35F8E124FD799800CE75ED /* APODInteractor.swift */,
+				9C4F1AEB24FCA5E6003EA0A2 /* APODPresenter.swift */,
+				9C35F8E324FD79DA00CE75ED /* APODViewController.swift */,
+				9C35F8E524FD7BCA00CE75ED /* APODViewController.storyboard */,
+			);
+			path = APOD;
+			sourceTree = "<group>";
+		};
+		9C4F1AEF24FCB6A0003EA0A2 /* Asteroids */ = {
+			isa = PBXGroup;
+			children = (
+				9C4F1AF824FCBB7E003EA0A2 /* Cells */,
+				9C4F1B0024FCD65E003EA0A2 /* Models */,
+				9C4F1AF024FCB6C2003EA0A2 /* AsteroidsViewController.swift */,
+				9C4F1AF224FCB6DB003EA0A2 /* AsteroidsViewController.storyboard */,
+				9C4F1AF424FCB738003EA0A2 /* AsteroidsPresenter.swift */,
+				9C4F1AF624FCB753003EA0A2 /* AsteroidsInteractor.swift */,
+			);
+			path = Asteroids;
+			sourceTree = "<group>";
+		};
+		9C4F1AF824FCBB7E003EA0A2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9C4F1AF924FCBB8A003EA0A2 /* AsteroidsFullinfo */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		9C4F1AF924FCBB8A003EA0A2 /* AsteroidsFullinfo */ = {
+			isa = PBXGroup;
+			children = (
+				9C4F1AFC24FCBBFA003EA0A2 /* AsteroidsCell.swift */,
+				9C4F1AFD24FCBBFA003EA0A2 /* AsteroidsCell.xib */,
+				9C4F1B0D24FCE465003EA0A2 /* AsteroidCellModel.swift */,
+			);
+			path = AsteroidsFullinfo;
+			sourceTree = "<group>";
+		};
+		9C4F1B0024FCD65E003EA0A2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9C4F1B0124FCD696003EA0A2 /* AsteroidModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9C4F1B0324FCDCF2003EA0A2 /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+				9C4F1B0424FCDD09003EA0A2 /* Network.swift */,
+				9C4F1B0624FCDDB1003EA0A2 /* Time.swift */,
+			);
+			path = Workers;
+			sourceTree = "<group>";
+		};
+		9C4F1B0824FCDE62003EA0A2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9C4F1B0924FCDE7A003EA0A2 /* APODModel.swift */,
+				9CEA034124FDFDFC00F7E156 /* ApodVCInfoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EA0DACF753813A268BF31D46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A2731D56819BD4AF0F2E71C /* Pods_NasaApiCS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C4F1AE224FCA343003EA0A2 /* Build configuration list for PBXNativeTarget "NasaApiCS" */;
 			buildPhases = (
+				6FAA4C109F607308D6A9DD21 /* [CP] Check Pods Manifest.lock */,
 				9C4F1ACA24FCA33D003EA0A2 /* Sources */,
 				9C4F1ACB24FCA33D003EA0A2 /* Frameworks */,
 				9C4F1ACC24FCA33D003EA0A2 /* Resources */,
+				3B5FA4017697518A05A6FB73 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,20 +264,78 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C4F1ADE24FCA343003EA0A2 /* LaunchScreen.storyboard in Resources */,
+				9C35F8E624FD7BCA00CE75ED /* APODViewController.storyboard in Resources */,
 				9C4F1ADB24FCA343003EA0A2 /* Assets.xcassets in Resources */,
+				9C4F1AFF24FCBBFA003EA0A2 /* AsteroidsCell.xib in Resources */,
 				9C4F1AD924FCA33D003EA0A2 /* Main.storyboard in Resources */,
+				9C4F1AF324FCB6DB003EA0A2 /* AsteroidsViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B5FA4017697518A05A6FB73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NasaApiCS/Pods-NasaApiCS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NasaApiCS/Pods-NasaApiCS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NasaApiCS/Pods-NasaApiCS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FAA4C109F607308D6A9DD21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NasaApiCS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9C4F1ACA24FCA33D003EA0A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C4F1AEC24FCA5E6003EA0A2 /* APODPresenter.swift in Sources */,
+				9C35F8E224FD799800CE75ED /* APODInteractor.swift in Sources */,
+				9C4F1AF724FCB753003EA0A2 /* AsteroidsInteractor.swift in Sources */,
+				9C35F8E424FD79DA00CE75ED /* APODViewController.swift in Sources */,
+				9C4F1B0E24FCE465003EA0A2 /* AsteroidCellModel.swift in Sources */,
+				9C4F1B0524FCDD09003EA0A2 /* Network.swift in Sources */,
+				9C4F1AFE24FCBBFA003EA0A2 /* AsteroidsCell.swift in Sources */,
+				9C4F1AF524FCB738003EA0A2 /* AsteroidsPresenter.swift in Sources */,
+				9C4F1B0224FCD696003EA0A2 /* AsteroidModel.swift in Sources */,
+				9C4F1B0724FCDDB1003EA0A2 /* Time.swift in Sources */,
+				9CEA034224FDFDFC00F7E156 /* ApodVCInfoModel.swift in Sources */,
+				9C4F1B0A24FCDE7A003EA0A2 /* APODModel.swift in Sources */,
 				9C4F1AD624FCA33D003EA0A2 /* ViewController.swift in Sources */,
 				9C4F1AD224FCA33D003EA0A2 /* AppDelegate.swift in Sources */,
+				9C4F1AF124FCB6C2003EA0A2 /* AsteroidsViewController.swift in Sources */,
 				9C4F1AD424FCA33D003EA0A2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +478,7 @@
 		};
 		9C4F1AE324FCA343003EA0A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 182042C597339877788A8EAA /* Pods-NasaApiCS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +497,7 @@
 		};
 		9C4F1AE424FCA343003EA0A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E820F5B2D52AF3C96E9C619 /* Pods-NasaApiCS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

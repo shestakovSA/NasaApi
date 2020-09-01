@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Asteroids View Controller-->
+        <scene sceneID="F7M-HF-xbW">
+            <objects>
+                <viewController storyboardIdentifier="AsteroidsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="o1k-CR-bty" customClass="AsteroidsViewController" customModule="NasaApiCS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FQa-zQ-0ou">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="nEE-Fl-xLk">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" red="0.14801674779999999" green="0.15785480099999999" blue="0.17353687670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="separatorColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="sectionIndexBackgroundColor" red="0.14801674779999999" green="0.15785480099999999" blue="0.17353687670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.14801674779999999" green="0.15785480099999999" blue="0.17353687670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="u8l-kf-vvU" firstAttribute="trailing" secondItem="nEE-Fl-xLk" secondAttribute="trailing" id="AW9-7g-6Sn"/>
+                            <constraint firstItem="u8l-kf-vvU" firstAttribute="bottom" secondItem="nEE-Fl-xLk" secondAttribute="bottom" id="G5d-5Q-h5R"/>
+                            <constraint firstItem="nEE-Fl-xLk" firstAttribute="top" secondItem="u8l-kf-vvU" secondAttribute="top" id="fJb-nr-2Bd"/>
+                            <constraint firstItem="nEE-Fl-xLk" firstAttribute="leading" secondItem="u8l-kf-vvU" secondAttribute="leading" id="mrc-3K-hQ5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="u8l-kf-vvU"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="nEE-Fl-xLk" id="eEj-Ob-doJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pPS-xP-ca5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="200.00000000000003" y="122.54464285714285"/>
+        </scene>
+    </scenes>
+</document>

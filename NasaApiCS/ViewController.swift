@@ -9,12 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    // MARK: - Launch UIViewController
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let storyboard = UIStoryboard.init(name: "APODViewController", bundle: nil)
+           let asteroidVC = storyboard.instantiateViewController(identifier: "APODViewController") as! APODViewController
+        self.navigationController?.pushViewController(asteroidVC, animated: true)
     }
-
-
+    
+    override func viewWillAppear(_ animated: Bool) {
+          navigationController?.setNavigationBarHidden(true, animated: true)
+      }
 }
 
