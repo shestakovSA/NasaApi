@@ -4,7 +4,7 @@
 Приложение отображает актуальную астрономическую картину дня, с описанием и названием. На втором экране можно посмотреть список астеройдов сближающихся с землей. Если NASA сделали видео астрономической картины дня, то есть возможность откртыть ссылку.
 
 ###  Если NASA сделали фото:
-![alt tag](https://github.com/shestakovSA/screen/blob/master/RPReplay_Final1598973594.gif.gif "Фото")​
+![alt tag](https://github.com/shestakovSA/screen/blob/master/RPReplay_Final1598973594.gif "Фото")​
 ### Если NASA сделали видео:
 ![alt tag](https://github.com/shestakovSA/screen/blob/master/RPReplay_Final1598973772.gif "Видео")​
 
